@@ -12,28 +12,22 @@
     <li>Padang</li>
     <li>PYK</li>
     <ul>
-    <li class="sw">Swiss</li>
+    <li class="sw"><strong>Swiss</strong></li>
     <li id="dm">Denmark</li>
     <li id="am">Amerika</li>
+    <li><input type="text" class="inputan" value="Bali"></li>
   </ul>
   <li>Kab.50 kota</li>
   <li>Padang Panjang</li>
   </ul>
+
+  <li class="vacation">
+    <h2>Hawaii</h2>
+    <button>Get Price</button>
+  </li>
   <button id="btn">Click</button>
   <button id="rm-bg">Remove bg</button>
 <script src="jquery-3.7.1.min.js"></script>
-<script>
-
-  $(document).ready(function(){
-    console.log("sudah jalan")
-    $("#btn").click(function (){
-      $("#destination li:first, li:last").css("background-color","blue")
-    })
-    $("#rm-bg").click(function(){
-      $("#destination li:first,li:last").css("background-color","")
-    })
-  })
-
-</script>
+<script src="main.js"></script>
 </body>
 </html>
