@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Jquery</title>
+</head>
+<body>
+
+  <h1>Kemana Kamu Ingin Pergi?</h1>
+  <ul id="destination">
+    <li>Padang</li>
+    <li>PYK</li>
+    <ul>
+    <li class="sw">Swiss</li>
+    <li id="dm">Denmark</li>
+    <li id="am">Amerika</li>
+  </ul>
+  <li>Kab.50 kota</li>
+  <li>Padang Panjang</li>
+  </ul>
+  <button id="btn">Click</button>
+  <button id="rm-bg">Remove bg</button>
+<script src="jquery-3.7.1.min.js"></script>
+<script>
+
+  $(document).ready(function(){
+    console.log("sudah jalan")
+    $("#btn").click(function (){
+      $("#destination li:first, li:last").css("background-color","blue")
+    })
+    $("#rm-bg").click(function(){
+      $("#destination li:first,li:last").css("background-color","")
+    })
+  })
+
+</script>
+</body>
+</html>
