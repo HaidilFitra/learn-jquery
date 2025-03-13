@@ -22,4 +22,17 @@ $(document).ready(function(){
   // $(".sw").remove()
   $(".sw").empty()
 
+  $("#rm-pdg").on('click',function(){
+    $(".pdg").fadeOut(2000)
+    alert('padang lenyap')
+  })
+
+  $("#show-pdg").on('click',function(){
+    // $(".pdg").toggle()
+    // $(".pdg").fadeToggle()
+    // $(".pdg").slideToggle()
+    $(".pdg").animate({
+      marginLeft:100
+    })
+  })
 })
