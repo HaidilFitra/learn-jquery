@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Belajar Jquery</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Jquery</title>
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css" />
+  </head>
+  <body>
+    <h1>Kemana Kamu Ingin Pergi?</h1>
+    <ul id="destination">
+      <li class="pdg">
+        Padang
+        <button id="rm-pdg">X</button>
+      </li>
+      <button id="show-pdg">show-pdg</button>
+      <li>PYK</li>
+      <ul>
+        <li class="sw"><strong>Swiss</strong></li>
+        <li id="dm">Denmark</li>
+        <li id="am">Amerika</li>
+        <li><input type="text" class="inputan" value="Bali" /></li>
+      </ul>
+      <li>Kab.50 kota</li>
+      <li>Padang Panjang</li>
+    </ul>
 
-  <h1>Kemana Kamu Ingin Pergi?</h1>
-  <ul id="destination">
-    <li class="pdg">Padang
-      <button id="rm-pdg">X</button>
-    </li> 
-    <button id="show-pdg">show-pdg</button>
-    <li>PYK</li>
-    <ul>
-    <li class="sw"><strong>Swiss</strong></li>
-    <li id="dm">Denmark</li>
-    <li id="am">Amerika</li>
-    <li><input type="text" class="inputan" value="Bali"></li>
-  </ul>
-  <li>Kab.50 kota</li>
-  <li>Padang Panjang</li>
-  </ul>
+    <li class="vacation">
+      <h2>Hawaii</h2>
+      <button>Get Price</button>
+    </li>
 
-  <li class="vacation">
-    <h2>Hawaii</h2>
-    <button>Get Price</button>
-  </li>
-  <button id="btn">Click</button>
-  <button id="rm-bg">Remove bg</button>
-<script src="jquery-3.7.1.min.js"></script>
-<script src="main.js"></script>
-</body>
+    <button id="btn">Click</button>
+    <button id="rm-bg">Remove bg</button>
+
+    <div class="your-class">
+      <div>
+        <h1>Berita 1</h1>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div>
+        <h1>Berita 2</h1>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat. .
+      </div>
+      <div>
+        <h1>Berita 3</h1>
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+      </div>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>

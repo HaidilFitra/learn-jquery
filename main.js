@@ -35,4 +35,7 @@ $(document).ready(function(){
       marginLeft:100
     })
   })
+
+  $('.your-class').slick({   //bisa menggeser content ke kiri dan kanan
+  });
 })
